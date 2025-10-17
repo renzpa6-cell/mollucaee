@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri - LastChild FanPage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .header {
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 15px ;
+    }
+
+    .header img {
+      width: 70px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    .header strong {
+      font-size: 22px;
+      vertical-align: middle;
+    }
+
+    .container {
+      display: flex;
+      min-height: 80vh;
+    }
+
+     .sidebar {
+      width: 220px;
+      background-color: #e6e6e6;
+      padding: 20px;
+      border-right: 3px solid #ccc;
+    }   
+
+    .sidebar h3 {
+      font-size: 18px;
+      margin-top: 0;
+      border-bottom: 2px solid #555;
+      padding-bottom: 8px;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar li {
+      margin: 15px 0;
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: #000000;
+      font-weight: bold;
+      display: block;
+      padding: 8px 12px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: #000000;
+      color: #ffffff;
+      padding-left: 16px;
+    }
+
+    .sidebar a.active {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      border-left: 6px solid #131313;
+    }
+
+    .content {
+      flex: 1;
+      background-color: #fff;
+      padding: 30px;
+    }
+
+    .content-p {
+      font-family: Arial, Helvetica, sans-serif
+    }
+
+    .content h2 {
+      margin-top: 0;
+      color: #111;
+    }
+
+    .highlight {
+      border-left: 5px solid #000000;
+      background-color: #f9f9f9;
+      padding: 10px 15px;
+      margin: 20px 0;
+    }
+
+    .highlight h3 {
+      margin-top: 0;
+      color: #0300cc;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+      box-shadow: 5px 4px 10px 5px rgba(0,0,0,0.69);
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .footer {
+      background-color: #000000;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="child.png" alt="LastChild Logo">
+    <strong>LastChild FanPage</strong>
+  </div>
+
+  <div class="container">
+    <div class="sidebar">
+      <h3>Navigasi</h3>
+      <ul>
+        <li><a href="tes2.html">Beranda</a></li>
+        <li><a href="biografi.html">Biografi</a></li>
+        <li><a href="penghargaan.html">Penghargaan</a></li>
+        <li><a href="galery.html">Galeri</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h2>Galeri Last Child</h2>
+      <p class="content-p">Lihat momen terbaik Last Child dari panggung hingga belakang layar!</p>
+
+      <div class="gallery">
+        <img src="lchild.png" alt="Konser Last Child 1">
+        <img src="lch.png" alt="Konser Last Child 2">
+        <img src="lastc.png" alt="band foto">
+        <img src="lc.png" alt="Behind The Scene">
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy;  2025 LastChild Fan page - Tidak berafiliasi resmi dengan Last Child.
+  </div>
+
+</body>
+</html>
